@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+header{
+
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color:blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+
+    color:blue ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    
+}
+
+.navigation a:hover{
+    color:blueviolet
+}
+
+section{
+
+    padding: 100px 200px ;
+}
+
+.main{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background-g8e66288df_1920.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.main h2{
+    color: white;
+    font-size: 1,4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color:blue;
+    font-size: 3em;
+    font-weight:600;
+}
+
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 14px;
+    margin-bottom: 40px;
+}
+
+.main-btn:hover{
+
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    align-items: center;
+}
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    color:blue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width:21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color:darkblue;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align:center;
+}
+
+
+
+.info h3{     
+color: blue;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+}
+
+
+.Notes{
+
+    background-color: #000016;
+
+ 
+}
+
+
+.Notes .content{
+    margin-top: 30px;
+}
+
+
+.Notes-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+
+
+.Notes-card:hover{
+    transform: scale(1.1);
+    
+}
+
+.Notes-card:hover .Notes-image{
+    opacity: 0.9;
+}
+
+.Notes-image img{
+    width: 100%;
+}
+
+.Notes-info{
+    padding: 1em;
+
+}
+
+.Notes-category{
+    font-size: 0.8em;
+    color:black;
+    display: flex;
+    
+}
+
+.Notes-title{
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.Exercise{
+
+    background-color: #000016;
+
+ 
+}
+
+
+.Exercise .content{
+    margin-top: 30px;
+}
+
+
+.Exercise-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+
+
+.Exercise-card:hover{
+    transform: scale(1.1);
+    
+}
+
+.Exercise-card:hover .Exercise-image{
+    opacity: 0.9;
+}
+
+.Exercise-image img{
+    width: 100%;
+}
+
+.Exercise-info{
+    padding: 1em;
+
+}
+
+.Exercise-category{
+    font-size: 0.8em;
+    color:black;
+    display: flex;
+    
+}
+
+.Exercise-title{
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.Questions{
+
+    background-color: #000016;
+
+ 
+}
+
+
+.Questions .content{
+    margin-top: 30px;
+}
+
+
+.Questions-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+
+
+.Questions-card:hover{
+    transform: scale(1.1);
+    
+}
+
+.Questions-card:hover .Questions-image{
+    opacity: 0.9;
+}
+
+.Questions-image img{
+    width: 100%;
+}
+
+.Questions-info{
+    padding: 1em;
+
+}
+
+.Questions-category{
+    font-size: 0.8em;
+    color:black;
+    display: flex;
+    
+}
+
+.Questions-title{
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
